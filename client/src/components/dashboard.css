@@ -1,0 +1,57 @@
+.banner {
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-text h2 {
+  font-size: 3.7rem;
+  color: #fff;
+}
+
+.banner-text .text-muted {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.banner-image {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../assets/dashboard/divright.png");
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .banner {
+    height: 300px;
+  }
+
+  .banner-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .banner-text .text-muted {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner {
+    height: 200px;
+  }
+
+  .banner-text h2 {
+    font-size: 2rem;
+  }
+
+  .banner-text .text-muted {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+}

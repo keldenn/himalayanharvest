@@ -1,0 +1,37 @@
+@media (max-width: 991.98px) {
+  /* Styles for collapsed navbar */
+  .navbar-collapse {
+    /* background-color:yellow; */
+    padding-top: 20px;
+  }
+
+  .input-group {
+    /* border: 1px solid black; */
+    display: flex;
+
+    justify-content: space-between;
+  }
+  .navbar-form {
+    margin-bottom: 10px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+  .navbar-items-text {
+    padding-left: 20px;
+  }
+  .navigation-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
